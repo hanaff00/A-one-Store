@@ -1,0 +1,45 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .header-right {
+    display: block;
+  }
+
+  .menu-icon::before {
+    display: none;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .menu-icon::before {
+    display: block;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon::before {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  @media all and (max-width: 420px) {
+    .header-right {
+      display: none;
+    }
+    .menu-icon::before {
+      display: block;
+    }
+  }
+}
