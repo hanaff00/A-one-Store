@@ -11,6 +11,96 @@
   .menu-icon::before {
     display: none;
   }
+  
+   .produks{
+        width:50%;
+    }
+    .container h2{
+        font-size:35px;
+    }
+    ul{
+      font-size: 13px;
+      text-align: center;
+    }
+    input, textarea{
+      width: 260px;
+      padding: 11px;
+      font-size: 15px;
+      border-radius: 14px;
+    }
+    input{
+      height: 9px;
+    }
+    textarea{
+      height: 60px;
+    }
+    .btn {
+      opacity: 0.8;
+      border-radius: 9px;
+    }
+    .message {
+      margin-top: 32px;
+      padding: 9px 32px;
+    }
+    .wrapper h4{
+      font-size: 31px;
+    }
+    .wrapper p {
+      font-size: 12px;
+      margin-top:0px;
+    }
+  
+    .ulasan_data, .ulasan_kirim{
+      margin: 0 auto;
+    }
+    footer{
+      font-size: 17px;
+      line-height: 20px;
+    }
+    .footer-logo {
+      padding: 15px;
+    }
+    .footer-medsos h5{
+      font-size: 25x;
+    }
+  }
+@media all and (max-width: 996px){
+    footer .alamat{
+      font-size: 25px;
+      padding-top: 1px;
+    }
+    a img{
+      height:25px;
+      width:25px;
+    }
+  }
+
+@media all and (max-width: 835px){
+  footer .alamat{
+    font-size: 25px;
+    padding-left:34px;
+    padding-top: 15px;
+  }
+  a img{
+    height:29px;
+    width:29px;
+  }
+  .footer-medsos h5{
+    font-size: 15px;
+  }
+  .twitter{
+    margin-left:18px;
+  }
+}
+
+@media all and (max-width: 835px){
+  .twitter{
+    margin-left:0px;
+  }
+  footer .alamat{
+    font-size: 23px;
+    padding-left:25px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -33,6 +123,87 @@
     font-size: 24px;
     line-height: 36px;
   }
+  
+  .produks{
+    width:100%;
+  }
+  .container h2{
+    font-size:30px;
+  }
+  
+  ul{
+      flex-wrap: wrap;
+      flex-direction: column;
+      font-size: 14px;
+      padding-right: 40px;
+    }
+    li {
+      width: 100%;
+    }
+    input, textarea{
+      width: 250px;
+      padding: 9px;
+      font-size: 14px;
+      border-radius: 14px;
+    }
+    textarea{
+      height: 30px;
+    }
+    .btn {
+      padding: 1px;
+      opacity: 0.8;
+      border-radius: 8px;
+    }
+    .message {
+      margin-top: 25px;
+      padding: 7px 30px;
+      box-shadow: 0 4px #555555;
+    }
+    .wrapper h4{
+      font-size: 25px;
+      margin:0px;
+    }
+    .wrapper p {
+      font-size: 12px;
+      margin-top:0px;
+    }
+    footer .alamat{
+      font-size: 12px;
+      padding-top:12px;
+      margin-right:65px;
+      margin-left:5px;
+    }
+    .footer-medsos h5{
+      font-size: 0px;
+      color:#005086;
+      padding-top:0px;
+    }
+    .footer-logo img{
+      width: 40px;
+      height: 40px;
+      padding-left:15px;
+      padding-top:15px;
+    }
+    .footer-medsos{
+      padding-right:24px;
+      padding-top: 5px;
+      padding-bottom:20px;
+    }
+    form li{
+      padding-right:10px;
+    }
+    input, textarea{
+      width: 200px;
+      padding: 7px;
+      margin: 0 auto;
+      font-size: 14px;
+      border: 1px solid #dee7ec;
+      border-radius: 16px;
+      font-family: 'Gaegu';
+      color:#707070;}
+    a img{
+      height:15px;
+      width:15px;}
 
   @media all and (max-width: 420px) {
     .header-right {
